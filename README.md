@@ -132,7 +132,7 @@ object HTTPProtocol {
     .acceptEncodingHeader("gzip, deflate, sdch")
     .warmUp(Configuration.baseURL + "/")
     //.inferHtmlResources(whiteList, blackList)
-    //.proxy(Proxy("sparpxyapp.aur.national.com.au", 8080).httpsPort(8080))
+    //.proxy(Proxy("randomproyx.com.au", 8080).httpsPort(8080))
     .proxy(Proxy(Configuration.proxyUrl, Configuration.proxyPort.toInt).httpsPort(Configuration.proxyPort.toInt))
 
 
