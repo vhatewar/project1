@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="32f4a868-438a-4ae7-bb54-220b9e4a95fc" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://computer-database.gatling.io" type="rest" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="32f4a868-438a-4ae7-bb54-220b9e4a95fcfileName">http%3A%2F%2Fcomputer-database.gatling.io</con:setting>
+  </con:settings>
+  <con:definitionCache/>
+  <con:endpoints>
+    <con:endpoint>http://computer-database.gatling.io</con:endpoint>
+  </con:endpoints>
+</con:interface>

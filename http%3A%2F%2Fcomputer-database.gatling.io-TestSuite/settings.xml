@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="51d4e960-2cab-409b-b8aa-50ffc5f01955" name="http://computer-database.gatling.io TestSuite" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="51d4e960-2cab-409b-b8aa-50ffc5f01955fileName">http%3A%2F%2Fcomputer-database.gatling.io-TestSuite</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>

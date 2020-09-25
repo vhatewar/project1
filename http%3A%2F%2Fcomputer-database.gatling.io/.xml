@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="" id="f0469d22-0d1b-41cc-90af-f876cd552164" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="f0469d22-0d1b-41cc-90af-f876cd552164fileName"/>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="85cef089-e5fc-4ac5-901a-35413f69d248" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="a1a55cb0-6625-4f5d-b58c-e9707e58b9ab" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://computer-database.gatling.io</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>
