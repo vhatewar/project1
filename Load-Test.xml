@@ -4,8 +4,16 @@
     <con:setting id="soapUIObjectSourceId">4e67b9b6-19d9-48d4-a6c6-e5ccd317f42a</con:setting>
     <con:setting id="soapUIObjectSourceType">soapUIObjectSourceType_RestRequest</con:setting>
     <con:setting id="45c913c1-f981-437b-83c2-9721bda3c097fileName">Load-Test</con:setting>
+    <con:setting id="IncludeOverview">true</con:setting>
+    <con:setting id="IncludeResults">true</con:setting>
+    <con:setting id="IncludeScenarioResults">true</con:setting>
+    <con:setting id="IncludeStatistics">true</con:setting>
+    <con:setting id="IncludeTestStepsHistory">false</con:setting>
+    <con:setting id="IncludeStatisticHistory">false</con:setting>
+    <con:setting id="IncludeHelp">true</con:setting>
+    <con:setting id="FlowLayout">false</con:setting>
   </con:settings>
-  <con1:loadui-project id="bbfaa0d9-ab59-4b94-a027-aed6db8bf11e" label="Load Test 1" xmlns:con1="http://eviware.com/loadui/config">
+  <con1:loadui-project id="bbfaa0d9-ab59-4b94-a027-aed6db8bf11e" label="Load Test" xmlns:con1="http://eviware.com/loadui/config">
     <con1:properties>
       <con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/>
       <con1:property propagates="true" key="CanvasItem.abortOnFinish" type="java.lang.Boolean">false</con1:property>
@@ -88,7 +96,7 @@
       <con1:component type="com.eviware.loadui.impl.component.generators.FixedVU" label="Fixed Load 2" id="80fec268-e989-4d56-938b-6bf608ced40c" category="Generators">
         <con1:properties>
           <con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/>
-          <con1:property propagates="true" key="stateProperty" type="java.lang.Boolean">true</con1:property>
+          <con1:property propagates="true" key="stateProperty" type="java.lang.Boolean">false</con1:property>
           <con1:property propagates="true" key="limitVU" type="java.lang.Long">25</con1:property>
           <con1:property propagates="true" key="load" type="java.lang.Long">3</con1:property>
           <con1:property propagates="true" key="interval" type="java.lang.Long">1000</con1:property>
